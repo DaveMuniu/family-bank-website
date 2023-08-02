@@ -1,0 +1,164 @@
+
+body {
+    background-color: #fff;
+      font-family: Arial, sans-serif;
+      background-image: url("familybank.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+  }
+  
+  
+  .header {
+    background-color: #0066cc;
+    color: white;
+    padding: 20px;
+    overflow: auto;
+  }
+  
+  
+  .header img {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+  background-color: #2196F3;
+  border-radius: 5px;
+  margin: 20px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+nav ul li a:hover{
+    background-color:#0D47A1 ;
+    
+  }
+  .header {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header img {
+    height: 50px;
+    margin-top: 10px;
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container ul li a {
+    background-color: #b3d9ff;
+    overflow: auto;
+    padding: 5px;
+  }
+  
+  .container .content {
+    padding: 20px;
+    width: auto;
+  }
+  
+  
+  .content h2 {
+    color: #0066cc;
+  }
+  
+  .content h3{
+    font-size: 30px;
+    color:#333;
+ }
+ 
+ .content h3 span{
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   padding:0 15px;
+  }
+  .content p {
+    line-height: 1.5;
+  }
+  
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: auto;
+  }
+  
+  .btn {
+    background-color: #2196F3;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .btn:hover {
+    background-color: #0D47A1;
+  }
+  .btn2 {
+    background-color: #f74c40d3;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .btn2:hover {
+    background-color: #f81d0d;
+  }
+  
+  
+  .error {
+    background-color: #F44336;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .footer {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+    
